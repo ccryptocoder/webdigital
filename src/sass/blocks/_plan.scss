@@ -1,0 +1,120 @@
+.plan {
+    padding: 80px 0;
+    &-table {
+        &__title {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            color: #151515;
+        }
+        &__price {
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 43px;
+            color: #151515;
+            div {
+                position: relative;
+                &::before {
+                    content: 'от';
+                    position: absolute;
+                    left: -6px;
+                    top: -4px;
+                    font-weight: 300;
+                    font-size: 20px;
+                    line-height: 24px;
+                }
+            }
+        }
+        th, td {
+            padding-top: 14px;
+            padding-bottom: 14px;
+            height: 56px;
+            text-align: center;
+            &:nth-child(1) {
+                text-align: left;
+                padding-left: 105px;
+                width: 630px;
+            }
+            &:not(:first-child) {
+                width: 210px;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+            &:nth-child(3) {
+                background: var(--blue-color);
+                color: var(--white-color);
+                svg path {
+                    fill: var(--white-color);
+                }
+            }
+        }
+        td {
+            border-bottom: .5px solid #959595;
+            &:nth-child(3) {
+                border: none;
+            }
+            &:nth-child(1) {
+                position: relative;
+                &::after {
+                    position: absolute;
+                    content: '';
+                    height: 50%;
+                    width: 1px;
+                    right: 0;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    background: #151515;
+                }
+            }
+        }
+        tr {
+            &:not(:nth-child(1)), &:not(:nth-child(2)) {
+                font-weight: 300;
+                font-size: 18px;
+                line-height: 24px;
+                color: #151515;
+            }
+            &:nth-child(2) {
+                td {
+                    &:nth-child(1) {
+                        &::after {
+                            display: none;
+                        }
+                    }
+                } 
+            }
+            &:last-child {
+                td {
+                    height: 96px;
+                    border: none;
+                    &:nth-child(1) {
+                        &::after {
+                            display: none;
+                        }
+                    }
+                } 
+            }
+        }
+        &__btn {
+            padding: 12px 38px;
+            background: #151515;
+            border-radius: 52px;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 24px;
+            text-align: center;
+            color: #FBFEFF;
+            text-decoration: none;
+            &:hover {
+                color: #FBFEFF;
+            }
+            &_white {
+                background: #FBFEFF;
+                color: #151515;
+                &:hover {
+                    color: #151515;
+                }
+            }
+        }
+    }
+}
