@@ -1,0 +1,28 @@
+.home-promo {
+    padding: 160px 0;
+    height: 700px;
+    &__container {
+        position: relative;
+    }
+    &__title {
+        width: 520px;
+    }
+    &__descr {
+        margin-top: 30px;
+        width: 360px;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        color: var(--dark-color);
+    }
+    &__btn {
+        margin-top: 45px;
+    }
+    &__img {
+        position: absolute;
+        width: 700px;
+        height: auto;
+        top: -35px;
+        right: 0;
+    }
+}

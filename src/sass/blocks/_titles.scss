@@ -1,0 +1,35 @@
+.title {
+    position: relative;
+    &__num {
+        position: absolute;
+        top: 13px;
+        left: -75px;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 29px;
+        &::before {
+            content: '';
+            position: absolute;
+            top: -10px;
+            left: -26px;
+            width: 3px;
+            height: 55px;
+            border-radius: 20px;
+            background-color: var(--dark-color);
+        }
+    }
+    &__text {
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 58px;
+        color: var(--blue-color);
+    }
+    &_active {
+        .title__num {
+            color: var(--blue-color);
+            &::before {
+                background-color: var(--blue-color);
+            }
+        }
+    }
+}
