@@ -1,4 +1,4 @@
-.home-promo {
+.promo {
     padding: 160px 0;
     height: 700px;
     &__container {
@@ -23,6 +23,16 @@
         width: 700px;
         height: auto;
         top: -35px;
+        right: 0;
+    }
+}
+
+.landing-promo {
+    &__img {
+        position: absolute;
+        width: 760px;
+        height: auto;
+        top: -75px;
         right: 0;
     }
 }
