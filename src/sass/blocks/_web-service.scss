@@ -1,0 +1,38 @@
+.web-service {
+    padding: 80px 0;
+    &__text {
+        margin-top: 25px;
+        max-width: 925px;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        color: var(--dark-color);
+    }
+    &__subtitle {
+        margin-top: 24px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 44px;
+        color: var(--blue-color);
+    }
+    &__grid {
+        margin-top: 70px;
+        display: grid;
+        grid-template-columns: 435px 515px;
+        grid-template-rows: repeat(4, 84px);
+        grid-auto-rows: 84px;
+        column-gap: 25px;
+        row-gap: 55px;
+    }
+    &-item {
+        display: grid;
+        grid-template-columns: 84px 1fr;
+        column-gap: 17px;
+        &__descr {
+            font-weight: 300;
+            font-size: 20px;
+            line-height: 24px;
+            color: #000000;
+        }
+    }
+}
