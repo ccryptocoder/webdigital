@@ -61,10 +61,21 @@
 .business-promo {
     &__img {
         position: absolute;
-        width: 854px;
+        width: 678px;
         height: auto;
-        top: -120px;
-        right: -35px;
+        top: -76px;
+        right: 0px;
+        z-index: -1;
+    }
+}
+
+.design-promo {
+    &__img {
+        position: absolute;
+        width: 570px;
+        height: auto;
+        top: -43px;
+        right: -20px;
         z-index: -1;
     }
 }
