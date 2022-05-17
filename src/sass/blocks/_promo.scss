@@ -79,3 +79,14 @@
         z-index: -1;
     }
 }
+
+.seo-promo {
+    &__img {
+        position: absolute;
+        width: 654px;
+        height: auto;
+        top: -32px;
+        right: -20px;
+        z-index: -1;
+    }
+}
