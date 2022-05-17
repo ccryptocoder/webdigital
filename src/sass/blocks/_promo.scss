@@ -56,3 +56,15 @@
         right: -20px;
     }
 }
+
+
+.business-promo {
+    &__img {
+        position: absolute;
+        width: 854px;
+        height: auto;
+        top: -120px;
+        right: -35px;
+        z-index: -1;
+    }
+}
