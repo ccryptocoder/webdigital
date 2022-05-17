@@ -101,3 +101,14 @@
         z-index: -1;
     }
 }
+
+.webdigital-promo {
+    &__img {
+        position: absolute;
+        width: unset;
+        height: auto;
+        top: -32px;
+        right: -20px;
+        z-index: -1;
+    }
+}
