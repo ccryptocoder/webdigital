@@ -12,3 +12,18 @@
         color: #FBFEFF;
     }
 }
+
+.wa-btn {
+    display: inline-block;
+    padding: 15px 13px;
+    background-color: #3D8B00;
+    border-radius: 40px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #FBFEFF;
+    text-decoration: none;
+    &:hover {
+        color: #FBFEFF;
+    }
+}
