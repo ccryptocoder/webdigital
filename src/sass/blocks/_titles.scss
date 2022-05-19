@@ -33,3 +33,17 @@
         }
     }
 }
+
+@media (max-width: 1439px) {
+    .title {
+        &__text {
+            font-size: 44px;
+            line-height: 47px;
+        }
+        &__num {
+            &::before {
+                left: -11px;
+            }
+        }
+    }
+}

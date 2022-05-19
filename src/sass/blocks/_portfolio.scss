@@ -56,3 +56,12 @@
         }
     }
 }
+
+@media (max-width: 1439px) {
+    .portfolio {
+        &__grid {
+            grid-template-columns: repeat(2,460px);
+            grid-template-rows: repeat(2,447px);
+        }
+    }
+}

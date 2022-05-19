@@ -124,3 +124,8 @@
         }
     }
 }
+@media (max-width: 1439px) {
+    .plan-table td:nth-child(1), .plan-table th:nth-child(1) {
+        padding-left: 40px;
+    }
+}

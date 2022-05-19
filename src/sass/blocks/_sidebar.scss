@@ -46,3 +46,9 @@
         transition: all .5s;
     }
 } 
+
+@media (max-width: 1439px) {
+    .sidebar {
+        width: 80px;
+    }
+}

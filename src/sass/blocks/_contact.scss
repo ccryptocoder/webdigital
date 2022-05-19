@@ -1,5 +1,4 @@
 .contact {
-    
     &__item {
         width: 1070px;
         display: grid;
@@ -68,6 +67,16 @@
         align-items: center;
         input[type=radio] {
             margin-right: 5px;
+        }
+    }
+}
+
+@media (max-width: 1439px) {
+    .contact {
+        &__item {
+            width: 990px;
+            display: grid;
+            grid-template-columns: 500px 480px;
         }
     }
 }

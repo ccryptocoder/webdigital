@@ -32,3 +32,11 @@
         }
     }
 }
+
+@media (max-width: 1439px) {
+    .reviews {
+        &__grid {
+            column-gap: 30px;
+        }
+    }
+}

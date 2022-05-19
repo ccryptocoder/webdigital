@@ -27,3 +27,15 @@ body {
         left: -100px;
     }
 }
+
+@media (max-width: 1439px) {
+    .container, .main {
+        width: 1000px;
+        margin: 0 auto;
+    }
+    .main {
+        &::before {
+            left: -85px;
+        }
+    }
+}

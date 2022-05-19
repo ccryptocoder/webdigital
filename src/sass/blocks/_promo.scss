@@ -115,3 +115,13 @@
         z-index: -1;
     }
 }
+
+@media (max-width: 1439px) {
+    .promo {
+        &__descr {
+            width: 340px;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+}

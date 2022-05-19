@@ -38,3 +38,16 @@
         }
     }
 }
+
+.team {
+    &-item {
+        &__title {
+            font-size: 22px;
+            line-height: 27px;
+        }
+        &__descr {
+            font-size: 16px;
+            line-height: 18px;
+        }
+    }
+}
