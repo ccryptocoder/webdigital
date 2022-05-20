@@ -67,3 +67,28 @@
         }
     }
 }
+
+@media (max-width: 1439px) {
+    .menu {
+        &__item {
+            a {
+                font-size: 18px;
+                line-height: 22px;
+            }
+            &:not(:last-child) {
+                margin-right: 70px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .header {
+        &__top {
+            padding-right: 30px;
+        }
+    }
+    .menu {
+        padding-right: 30px;
+    }
+}

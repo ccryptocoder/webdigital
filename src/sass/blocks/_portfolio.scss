@@ -1,5 +1,4 @@
 .portfolio {
-    
     &__grid {
         margin-top: 80px;
         display: grid;
@@ -62,6 +61,17 @@
         &__grid {
             grid-template-columns: repeat(2,460px);
             grid-template-rows: repeat(2,447px);
+            grid-auto-rows: 447px;
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .portfolio {
+        &__grid {
+            grid-template-columns: repeat(2,420px);
+            grid-template-rows: repeat(2,408px);
+            grid-auto-rows: 408px;
         }
     }
 }

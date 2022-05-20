@@ -60,7 +60,6 @@
     }
 }
 
-
 .business-promo {
     &__img {
         position: absolute;
@@ -122,6 +121,123 @@
             width: 340px;
             font-size: 18px;
             line-height: 22px;
+        }
+    }
+
+    .landing-promo {
+        &__img {
+            right: -72px;
+        }
+    }
+    
+    .corporate-promo {
+        &__img {
+            top: -183px;
+            right: -49px;
+        }
+    }
+
+    .store-promo {
+        &__img {
+            top: -93px;
+            right: -110px;
+        }
+    }
+
+    .business-promo {
+        &__img {
+        }
+    }
+    
+    .design-promo {
+        &__img {
+            width: 520px;
+            right: -6px;
+        }
+    }
+    
+    .seo-promo {
+        &__img {
+        }
+    }
+    
+    .present-promo {
+        &__img {
+        }
+    }
+    
+    .webdigital-promo {
+        &__img {
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .promo {
+        padding: 135px 0 50px;
+        height: 620px;
+        &__title {
+            width: 420px;
+        }
+        &__img {
+            width: 627px;
+        }
+    }
+
+    .landing-promo {
+        &__img {
+            right: -32px;
+            width: 599px;
+            top: -51px;
+        }
+    }
+    
+    .corporate-promo {
+        &__img {
+            width: 564px;
+            top: -153px;
+            right: -60px;
+        }
+    }
+
+    .store-promo {
+        &__img {
+            width: 711px;
+            top: -56px;
+            right: -61px;
+        }
+    }
+
+    .business-promo {
+        &__img {
+            width: 622px;
+            top: -68px;
+            right: -31px;
+        }
+    }
+    
+    .design-promo {
+        &__img {
+            width: 520px;
+            right: -6px;
+        }
+    }
+    
+    .seo-promo {
+        &__img {
+            width: 543px;
+            top: -17px;
+            right: 2px;
+        }
+    }
+    
+    .present-promo {
+        &__img {
+        }
+    }
+    
+    .webdigital-promo {
+        &__img {
         }
     }
 }

@@ -40,3 +40,14 @@
         }
     }
 }
+
+@media (max-width: 1199px) {
+    .reviews {
+        &__grid {
+            margin-top: 60px;
+            display: grid;
+            column-gap: 40px;
+            grid-template-columns: repeat(2,305px);
+        }
+    }
+}

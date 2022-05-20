@@ -43,10 +43,35 @@
             font-size: 18px;
             line-height: 22px;
         }
+        &__subtitle {
+            font-size: 34px;
+            line-height: 36px;
+        }
         &-item {
             &__descr {
                 font-size: 18px;
                 line-height: 22px;
+            }
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .web-service {
+        &__grid {
+            margin-top: 40px;
+            grid-template-columns: 400px 430px;
+            row-gap: 40px;
+        }
+        &__text {
+            max-width: 700px;
+            font-size: 16px;
+            line-height: 18px;
+        }
+        &-item {
+            &__descr {
+                font-size: 16px;
+                line-height: 18px;
             }
         }
     }

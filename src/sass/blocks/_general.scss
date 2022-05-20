@@ -39,3 +39,15 @@ body {
         }
     }
 }
+
+@media (max-width: 1199px) {
+    .container, .main {
+        width: 880px; //960
+        margin: 0 auto;
+    }
+    .main {
+        &::before {
+            left: -56px;
+        }
+    }
+}

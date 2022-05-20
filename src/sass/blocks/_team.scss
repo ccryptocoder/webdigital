@@ -39,15 +39,41 @@
     }
 }
 
-.team {
-    &-item {
-        &__title {
-            font-size: 22px;
-            line-height: 27px;
+@media (max-width: 1439px) {
+    .team {
+        &-item {
+            &__title {
+                font-size: 22px;
+                line-height: 27px;
+            }
+            &__descr {
+                font-size: 16px;
+                line-height: 18px;
+            }
         }
-        &__descr {
-            font-size: 16px;
-            line-height: 18px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .team {
+        &__grid {
+            grid-template-columns: repeat(3,190px);
+            grid-template-rows: repeat(2,260px);
+            column-gap: 80px;
+        }
+        &-item {
+            &__img {
+                width: 190px;
+                height: 190px;
+            }
+            &__title {
+                font-size: 20px;
+                line-height: 25px;
+            }
+            &__descr {
+                font-size: 14px;
+                line-height: 16px;
+            }
         }
     }
 }

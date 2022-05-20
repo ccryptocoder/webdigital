@@ -44,11 +44,37 @@
     .service {
         &__grid {
             grid-template-columns: 465px 480px;
+            grid-template-rows: repeat(2,200px);
+            grid-auto-rows: 200px;
         }
         &-item {
+            grid-template-columns: 190px 1fr;
+            grid-template-rows: 200px;
             &__text {
                 grid-template-rows: 90px 1fr;
             }
+            &__title {
+                font-size: 22px;
+                line-height: 25px;
+            }
+            &__descr {
+                font-size: 16px;
+                line-height: 22px;
+            }
         }
+    }
+}
+
+@media (max-width: 1199px) {
+    .service {
+        &__grid {
+            grid-template-columns: 400px 430px;
+        }  
+        &-item {
+            &__text {
+                grid-template-rows: 78px 1fr;
+                padding: 12px 0 10px;
+            }
+        }  
     }
 }

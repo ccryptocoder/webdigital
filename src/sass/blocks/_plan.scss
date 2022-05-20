@@ -129,3 +129,13 @@
         padding-left: 40px;
     }
 }
+
+@media (max-width: 1199px) {
+    .plan-table td:nth-child(1), .plan-table th:nth-child(1) {
+        padding-left: 20px;
+        width: 270px;
+    }
+    .plan-table td:not(:first-child), .plan-table th:not(:first-child) {
+        width: 198px;
+    }
+}
